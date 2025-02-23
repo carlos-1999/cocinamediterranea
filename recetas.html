@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Mediterráneas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="receta">
+    <header class="header-recetas">
+        <div class="logo-titulo">
+            <h1>Cocina Mediterránea</h1>
+        </div>
+    </header>
+
+    <main>
+        <input id="search-bar" type="text" placeholder="Buscar receta...">
+
+        <section class="receta-lista">
+            <div class="receta-item">
+                <img src="IMG/ensalada-mediterranea.jfif" alt="Ensalada Mediterránea">
+                <h3>Ensalada Mediterránea</h3>
+                <p>Una refrescante ensalada con aceitunas, queso feta y tomate.</p>
+                <a href="https://www.bonviveur.es/recetas/ensalada-mediterranea" class="btn" onclick="confirmarRedireccion(event, 'https://www.bonviveur.es/recetas/ensalada-mediterranea')">Ver Receta</a>
+            </div>
+
+            <div class="receta-item">
+                <img src="IMG/pescado-azul.jfif" alt="Pescado Azul al Horno">
+                <h3>Pescado Azul al Horno</h3>
+                <p>Pescado al horno con aceite de oliva, limón y hierbas.</p>
+                <a href="https://cookpad.com/es/buscar/pescado%20azul" class="btn" onclick="confirmarRedireccion(event, 'https://cookpad.com/es/buscar/pescado%20azul')">Ver Receta</a>
+            </div>
+
+            <div class="receta-item">
+                <img src="IMG/pan-tomate.jfif" alt="Pan con Tomate">
+                <h3>Pan con Tomate</h3>
+                <p>Una receta simple pero deliciosa con pan rústico, ajo y tomate.</p>
+                <a href="https://danzadefogones.com/como-hacer-pan-con-tomate/" class="btn" onclick="confirmarRedireccion(event, 'https://danzadefogones.com/como-hacer-pan-con-tomate/')">Ver Receta</a>
+            </div>
+        </section>
+
+        <div class="volver-inicio">
+            <a href="index.html" class="btn-volver">⬅ Volver a Inicio</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cocina Mediterránea</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
